@@ -152,4 +152,4 @@ dalambert_profit_rate = (dalambert_p_count/float(Cnumber_of_bettors) * 100)
 print("D'Alembert broke rate is " + str(dalambert_broke_rate) + " %")
 print("D'Alembert bet profit chance is " + str(dalambert_profit_rate) + " %")
 
-plt.show
+plt.show()
