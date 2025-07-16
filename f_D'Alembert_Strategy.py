@@ -78,7 +78,7 @@ def dalembert_bettor(funds, initial_wager, wager_count):
 
         currentWager += 1
         print("Account value is " + str(value) + " wager is now " + str(wager))
-    plt.plot(wagerX,valueY, color = "blue")
+    plt.plot(wagerX,valueY)
     if valueY[len(valueY)-1] > Cfunds:
         dalambert_p_count += 1
     
